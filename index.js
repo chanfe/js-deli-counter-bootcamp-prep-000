@@ -1,10 +1,10 @@
-var katzDeli = []; // [0]
-var aNumber = 0;
+var katzDeli = []; // [0, 1]
+var aNumber = 0; //1
 
 function takeANumber(katzDeliLine){
   katzDeliLine.push(aNumber);
-  var welcome_string = `Welcome! You are number ${aNumber} in line.`;
-  aNumber++; // 1
+  var welcome_string = `Welcome! You are number ${aNumber} in line.`; //0=1==
+  aNumber++; //1
   return welcome_string;
 }
 
