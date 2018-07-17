@@ -4,8 +4,8 @@ var aNumber = 0;
 function takeANumber(katzDeliLine){
   katzDeliLine.push(aNumber);
   aNumber++;
-  var welcome_string = 
-  return `Welcome, ${name}. You are number ${aNumber} in line.`;
+  var welcome_string = `Welcome, ${name}. You are number ${aNumber} in line.`
+  return ;
 }
 
 function nowServing(katzDeliLine){
